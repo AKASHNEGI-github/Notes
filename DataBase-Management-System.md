@@ -2,16 +2,16 @@
 
 ---
 
-**Name : Akash Negi**
-<br>
-**Course : MCA (Master of Computer Applications)**
-**College : Graphic Era Hill University , Dehradun**
-**Session : 2022 - 2024**
+**Name : Akash Negi** <br>
+**Course : MCA (Master of Computer Applications)** <br>
+**College : Graphic Era Hill University , Dehradun** <br>
+**Session : 2022 - 2024** <br>
 
 ---
 
 ### What is Data 
-Data is statically raw and unprocessed information. For example – name, class, marks, etc.
+Data is statically raw and unprocessed information. <br>
+Example – name, class, marks, etc.
 
 ### What is DataBase
 A database is an organized collection of data stored in a computer system and usually controlled by a database management system (DBMS).
@@ -23,19 +23,19 @@ A DataBase Management System (DBMS) is a software system that is designed to man
 RDBMS stands for Relational Database Management Systems. It is a program that allows us to create, delete, and update a relational database. A Relational Database is a database system that stores and retrieves data in a tabular format organized in the form of rows and columns. It is a smaller subset of DBMS which was designed by E.F Codd in the 1970s. The major DBMSs like SQL, My-SQL, and ORACLE are all based on the principles of relational DBMS. 
 
 ### What are the Advantages of DBMS
-**Data organization** : A DBMS allows for the organization and storage of data in a structured manner, making it easy to retrieve and query the data as needed.
-**Data integrity** : A DBMS provides mechanisms for enforcing data integrity constraints, such as constraints on the values of data and access controls that restrict who can access the data.
-**Concurrent access** : A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other.
-**Data security** : A DBMS provides tools for managing the security of the data, such as controlling access to the data and encrypting sensitive data.
-**Backup and recovery** : A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure.
-**Data sharing** : A DBMS allows multiple users to access and share the same data, which can be useful in a collaborative work environment.
+**Data organization** : A DBMS allows for the organization and storage of data in a structured manner, making it easy to retrieve and query the data as needed. <br>
+**Data integrity** : A DBMS provides mechanisms for enforcing data integrity constraints, such as constraints on the values of data and access controls that restrict who can access the data. <br>
+**Concurrent access** : A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other. <br>
+**Data security** : A DBMS provides tools for managing the security of the data, such as controlling access to the data and encrypting sensitive data. <br>
+**Backup and recovery** : A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure. <br>
+**Data sharing** : A DBMS allows multiple users to access and share the same data, which can be useful in a collaborative work environment. <br>
 
 ### What are the Dis-advantages of DBMS
-**Complexity** : DBMS can be complex to set up and maintain, requiring specialized knowledge and skills.
-**Performance overhead** : The use of a DBMS can add overhead to the performance of an application, especially in cases where high levels of concurrency are required.
-**Scalability** : The use of a DBMS can limit the scalability of an application, since it requires the use of locking and other synchronization mechanisms to ensure data consistency.
-**Cost** : The cost of purchasing, maintaining and upgrading a DBMS can be high, especially for large or complex systems.
-**Limited Use Cases** : Not all use cases are suitable for a DBMS, some solutions don’t need high reliability, consistency or security and may be better served by other types of data storage.
+- **Complexity** : DBMS can be complex to set up and maintain, requiring specialized knowledge and skills.
+- **Performance overhead** : The use of a DBMS can add overhead to the performance of an application, especially in cases where high levels of concurrency are required.
+- **Scalability** : The use of a DBMS can limit the scalability of an application, since it requires the use of locking and other synchronization mechanisms to ensure data consistency.
+- **Cost** : The cost of purchasing, maintaining and upgrading a DBMS can be high, especially for large or complex systems.
+- **Limited Use Cases** : Not all use cases are suitable for a DBMS, some solutions don’t need high reliability, consistency or security and may be better served by other types of data storage.
 
 ### Explain DBMS v/s File System
 | Basics | File System | DBMS |
