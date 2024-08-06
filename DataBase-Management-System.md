@@ -2,15 +2,19 @@
 
 ---
 
-**Name : Akash Negi** <br>
-**Course : MCA (Master of Computer Applications)** <br>
-**College : Graphic Era Hill University , Dehradun** <br>
-**Session : 2022 - 2024** <br>
+**Name : Akash Negi** 
+<br>
+**Course : MCA (Master of Computer Applications)** 
+<br>
+**College : Graphic Era Hill University , Dehradun** 
+<br>
+**Session : 2022 - 2024**
 
 ---
 
 ### What is Data 
-Data is statically raw and unprocessed information. <br>
+Data is statically raw and unprocessed information.
+<br>
 Example – name, class, marks, etc.
 
 ### What is DataBase
@@ -23,12 +27,12 @@ A DataBase Management System (DBMS) is a software system that is designed to man
 RDBMS stands for Relational Database Management Systems. It is a program that allows us to create, delete, and update a relational database. A Relational Database is a database system that stores and retrieves data in a tabular format organized in the form of rows and columns. It is a smaller subset of DBMS which was designed by E.F Codd in the 1970s. The major DBMSs like SQL, My-SQL, and ORACLE are all based on the principles of relational DBMS. 
 
 ### What are the Advantages of DBMS
-**Data organization** : A DBMS allows for the organization and storage of data in a structured manner, making it easy to retrieve and query the data as needed. <br>
-**Data integrity** : A DBMS provides mechanisms for enforcing data integrity constraints, such as constraints on the values of data and access controls that restrict who can access the data. <br>
-**Concurrent access** : A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other. <br>
-**Data security** : A DBMS provides tools for managing the security of the data, such as controlling access to the data and encrypting sensitive data. <br>
-**Backup and recovery** : A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure. <br>
-**Data sharing** : A DBMS allows multiple users to access and share the same data, which can be useful in a collaborative work environment. <br>
+- **Data organization** : A DBMS allows for the organization and storage of data in a structured manner, making it easy to retrieve and query the data as needed. 
+- **Data integrity** : A DBMS provides mechanisms for enforcing data integrity constraints, such as constraints on the values of data and access controls that restrict who can access the data. 
+- **Concurrent access** : A DBMS provides mechanisms for controlling concurrent access to the database, to ensure that multiple users can access the data without conflicting with each other. 
+- **Data security** : A DBMS provides tools for managing the security of the data, such as controlling access to the data and encrypting sensitive data. 
+- **Backup and recovery** : A DBMS provides mechanisms for backing up and recovering the data in the event of a system failure. 
+- **Data sharing** : A DBMS allows multiple users to access and share the same data, which can be useful in a collaborative work environment. 
 
 ### What are the Dis-advantages of DBMS
 - **Complexity** : DBMS can be complex to set up and maintain, requiring specialized knowledge and skills.
@@ -58,34 +62,37 @@ RDBMS stands for Relational Database Management Systems. It is a program that al
 | Example | Cobol , C++ | Oracle , SQL Server |
 
 ### Explain DataBase Languages
-**DDL (Data Definition Language)** : It contains commands which are required to define the database.
+- **DDL (Data Definition Language)** : It contains commands which are required to define the database.
 Example -  CREATE, ALTER, DROP, TRUNCATE, RENAME.
-**DML (Data Manipulation Language)** : It contains commands which are required to manipulate the data present in the database.
+- **DML (Data Manipulation Language)** : It contains commands which are required to manipulate the data present in the database.
 Example - SELECT, UPDATE, INSERT, DELETE.
-**DCL (Data Control Language)** : It contains commands which are required to deal with the user permissions and controls of the database system.
+- **DCL (Data Control Language)** : It contains commands which are required to deal with the user permissions and controls of the database system.
 Example - GRANT and REVOKE.
-**TCL (Transaction Control Language)** : It contains commands which are required to deal with the transaction of the database.
+- **TCL (Transaction Control Language)** : It contains commands which are required to deal with the transaction of the database.
 Example - COMMIT, ROLLBACK, and SAVEPOINT.
 
 ### Explain 2 - Tier Architecture
 The 2-tier architecture refers to the client-server architecture in which applications at the client end directly communicate with the database at the server end without any middleware involved.
+<br>
 Example – Contact Management System created using MS-Access or Railway Reservation System, etc.
 
 ### Explain 3 - Tier Architecture
 The 3-tier architecture contains another layer between the client and the server to provide GUI to the users and make the system much more secure and accessible. In this type of architecture, the application present on the client end interacts with an application on the server end which further communicates with the database system.
+<br>
 Example – Designing registration form which contains a text box, label, button or a large website on the Internet, etc.
 
 ###  Explain Levels of Data Abstraction
 The process of hiding irrelevant details from users is known as Data Abstraction. 
 
 Data Abstraction can be divided into 3 levels -
-**Physical Level** : It is the lowest level and is managed by DBMS. This level consists of data storage descriptions and the details of this level are typically hidden from system admins, developers, and users.
-**Conceptual or Logical level** : It is the level on which developers and system admins work and it determines **WHAT** data is stored in the database and what is the relationship between the data points.
-**External or View level** : It is the level that describes only part of the database and hides the details of the table schema and its physical storage from the users. The result of a query is an example of View level data abstraction. A view is a virtual table created by selecting fields from one or more tables present in the database.
+- **Physical Level** : It is the lowest level and is managed by DBMS. This level consists of data storage descriptions and the details of this level are typically hidden from system admins, developers, and users.
+- **Conceptual or Logical level** : It is the level on which developers and system admins work and it determines **WHAT** data is stored in the database and what is the relationship between the data points.
+- **External or View level** : It is the level that describes only part of the database and hides the details of the table schema and its physical storage from the users. The result of a query is an example of View level data abstraction. A view is a virtual table created by selecting fields from one or more tables present in the database.
 
 ### Explain Intension and Extension
-**Intension** -  Intension or popularly known as database schema is used to define the description of the database and is specified during the design of the database and mostly remains unchanged.
-**Extension** - Extension on the other hand is the measure of the number of tuples present in the database at any given point in time. The extension of a database is also referred to as the snapshot of the database and its value keeps changing as and when the tuples are created, updated, or destroyed in a database.
+- **Intension** -  Intension or popularly known as database schema is used to define the description of the database and is specified during the design of the database and mostly remains unchanged.
+- <br>
+- **Extension** - Extension on the other hand is the measure of the number of tuples present in the database at any given point in time. The extension of a database is also referred to as the snapshot of the database and its value keeps changing as and when the tuples are created, updated, or destroyed in a database.
 
 ### Explain E - R Model
 Entity - Relationship Model is a diagrammatic approach to a database design where real-world objects are represented as entities and relationships between them are mentioned.
@@ -141,13 +148,13 @@ Example - Let us assume that a student can take more than one course and one cou
 
 **Participation Constraint**
 Participation Constraint is applied to the entity participating in the relationship set.  
-- Total Participation : Each entity in the entity set must participate in the relationship. If each student must enroll in a course, the participation of students will be total. Total participation is shown by a double line in the ER diagram. 
-- Partial Participation : The entity in the entity set may or may NOT participate in the relationship. If some courses are not enrolled by any of the students, the participation in the course will be partial. 
+- **Total Participation** : Each entity in the entity set must participate in the relationship. If each student must enroll in a course, the participation of students will be total. Total participation is shown by a double line in the ER diagram. 
+- **Partial Participation** : The entity in the entity set may or may NOT participate in the relationship. If some courses are not enrolled by any of the students, the participation in the course will be partial. 
 
 ### What is Relationship
 The Relationship is defined as an association among two or more entities. 
-There are 3 Type of Relationships in DBMS - 
 
+There are 3 Type of Relationships in DBMS - 
 **One-To-One** : Here one record of any object can be related to one record of another  object.
 **One-To-Many** : Here one record of any object can be related to many  records of other object and vice versa.
 **Many-To-Many** : Here more than one records of an object can be related to n number of records of another object.
@@ -183,25 +190,26 @@ If F is a set of functional dependencies then the closure of F, denoted as F+, i
 - Axiom of Transitivity : Same as the transitive rule in algebra, if A→B holds and B→C holds, then A→C also holds. A→B is called A functionally which determines B. **If X→Y and Y→Z, then X→Z**.
 
 Types of Functional Dependencies in DBMS - 
-**Trivial FD** - In Trivial Functional Dependency, a dependent is always a subset of the determinant. i.e. If X → Y and Y is the subset of X, then it is called trivial functional dependency
-**Non-Trivial FD** - In Non-trivial functional dependency, the dependent is strictly not a subset of the determinant. i.e. If X → Y and Y is not a subset of X, then it is called Non-trivial functional dependency.
-**Multivalued FD** - In Multivalued functional dependency, entities of the dependent set are not dependent on each other. i.e. If a → {b, c} and there exists no functional dependency between b and c, then it is called a multivalued functional dependency.
-**Transitive FD** - In transitive functional dependency, dependent is indirectly dependent on determinant. i.e. If a → b & b → c, then according to axiom of transitivity, a → c. This is a transitive functional dependency.
-**Full FD** - In full functional dependency an attribute or a set of attributes uniquely determines another attribute or set of attributes. If a relation R has attributes X, Y, Z with the dependencies X->Y and X->Z which states that those dependencies are fully functional.
-**Partial FD** - In partial functional dependency a non key attribute depends on a part of the composite key, rather than the whole key. If a relation R has attributes X, Y, Z where X and Y are the composite key and Z is non key attribute. Then X->Z is a partial functional dependency in RBDMS.
+- **Trivial FD** - In Trivial Functional Dependency, a dependent is always a subset of the determinant. i.e. If X → Y and Y is the subset of X, then it is called trivial functional dependency
+- **Non-Trivial FD** - In Non-trivial functional dependency, the dependent is strictly not a subset of the determinant. i.e. If X → Y and Y is not a subset of X, then it is called Non-trivial functional dependency.
+- **Multivalued FD** - In Multivalued functional dependency, entities of the dependent set are not dependent on each other. i.e. If a → {b, c} and there exists no functional dependency between b and c, then it is called a multivalued functional dependency.
+- **Transitive FD** - In transitive functional dependency, dependent is indirectly dependent on determinant. i.e. If a → b & b → c, then according to axiom of transitivity, a → c. This is a transitive functional dependency.
+- **Full FD** - In full functional dependency an attribute or a set of attributes uniquely determines another attribute or set of attributes. If a relation R has attributes X, Y, Z with the dependencies X->Y and X->Z which states that those dependencies are fully functional.
+- **Partial FD** - In partial functional dependency a non key attribute depends on a part of the composite key, rather than the whole key. If a relation R has attributes X, Y, Z where X and Y are the composite key and Z is non key attribute. Then X->Z is a partial functional dependency in RBDMS.
 
 ### Explain Anomalies
 Anomalies in the relational model refer to inconsistencies or errors that can arise when working with relational databases, specifically in the context of data insertion, deletion, and modification. 
 
 Types of Anomalies - 
-- Insertion Anomalies : If there is a new row inserted in the table and it creates the inconsistency in the table then it is called the Insertion Anomaly.
-- Deletion Anomalies : If we delete some rows from the table and if any other information or data which is required is also deleted from the database then it is called the Deletion Anomaly.
-- Update Anomalies : If we update some rows in the table, and if it leads to the inconsistency of the table then this anomaly occurs then it is called the Updation Anomaly.
+- **Insertion Anomalies** : If there is a new row inserted in the table and it creates the inconsistency in the table then it is called the Insertion Anomaly.
+- **Deletion Anomalies** : If we delete some rows from the table and if any other information or data which is required is also deleted from the database then it is called the Deletion Anomaly.
+- **Update Anomalies** : If we update some rows in the table, and if it leads to the inconsistency of the table then this anomaly occurs then it is called the Updation Anomaly.
 
 ### What is Normalization
 Normalization is a process of reducing redundancy by organizing the data into multiple tables. Normalization leads to better usage of disk spaces and makes it easier to maintain the integrity of the database.
 
 **Normal Forms** -
+<br>
 **1NF** - A table to be in its First Normal Form should satisfy the following conditions -
 - Every column must have a single value and should be atomic.
 - Duplicate columns from the same table should be removed.
@@ -230,23 +238,25 @@ In order to maintain consistency in a database, before and after the transaction
 ### Explain ACID Properties
 ACID stands for Atomicity, Consistency, Isolation, and Durability in a DBMS. These are the properties that ensure a safe and secure way of sharing data among multiple users.
 
-**Atomicity** - Atomicity specifies that either the entire transaction takes place at once or doesn’t happen at all. There is no midway i.e. transactions do not occur partially. If any part of the transaction fails, the entire transaction is rolled back to its original state, ensuring data consistency and integrity.
-**Consistency** - Consistency specifies that integrity constraints must be maintained so that the database is consistent before and after the transaction.
-**Isolation** - Isolation specifies that multiple transactions can occur concurrently without leading to the inconsistency of the database state. Transactions occur independently without interference. 
-**Durability** - Durability specifies that once the transaction has completed execution, the updates and modifications to the database are stored in and written to disk and they persist even if a system failure occurs.
+- **Atomicity** - Atomicity specifies that either the entire transaction takes place at once or doesn’t happen at all. There is no midway i.e. transactions do not occur partially. If any part of the transaction fails, the entire transaction is rolled back to its original state, ensuring data consistency and integrity.
+- **Consistency** - Consistency specifies that integrity constraints must be maintained so that the database is consistent before and after the transaction.
+- **Isolation** - Isolation specifies that multiple transactions can occur concurrently without leading to the inconsistency of the database state. Transactions occur independently without interference. 
+- **Durability** - Durability specifies that once the transaction has completed execution, the updates and modifications to the database are stored in and written to disk and they persist even if a system failure occurs.
 
 ### Explain Locks in DBMS
 A database lock is a mechanism to protect a shared piece of data from getting updated by two or more database users at the same time. When a single database user or session has acquired a lock then no other database user or session can modify that data until the lock is released.
 
 Types of Locks - 
-**Shared Lock** : A shared lock is required for reading a data item and many transactions may hold a lock on the same data item in a shared lock. Multiple transactions are allowed to read the data items in a shared lock.
-**Exclusive Lock** : An exclusive lock is a lock on any transaction that is about to perform a write operation. This type of lock doesn’t allow more than one transaction and hence prevents any inconsistency in the database.
+- **Shared Lock** : A shared lock is required for reading a data item and many transactions may hold a lock on the same data item in a shared lock. Multiple transactions are allowed to read the data items in a shared lock.
+- **Exclusive Lock** : An exclusive lock is a lock on any transaction that is about to perform a write operation. This type of lock doesn’t allow more than one transaction and hence prevents any inconsistency in the database.
 
 ### What is Conflict Serializability
 Concurrency serializability, also known as conflict serializability, is a type of concurrency control that guarantees that the outcome of concurrent transactions is the same as if the transactions were executed consecutively.
 
 **Conflict serializable schedules** : A schedule is called conflict serializable if it can be transformed into a serial schedule by swapping non-conflicting operations.
+<br>
 **Non-conflicting operations** : When two operations operate on separate data items or the same data item but at least one of them is a read operation, they are said to be non-conflicting.
+<br>
 **Conflicting Operations** : Two operations are said to be conflicting if all conditions are satisfied -  
 - They belong to different transactions
 - They operate on the same data item
@@ -262,11 +272,13 @@ Sharding is a very important concept that helps the system to keep data in diffe
 Scaling alters the size of a system. In the scaling process, we either compress or expand the system to meet the expected needs. The scaling operation can be achieved by adding resources to meet the smaller expectation in the current system, by adding a new system to the existing one, or both. 
 
 Types of Scaling - 
-**Vertical Scaling** : When new resources are added to the existing system to meet the expectation, it is known as vertical scaling. 
+- **Vertical Scaling** : When new resources are added to the existing system to meet the expectation, it is known as vertical scaling.
+<br>
 Example - Consider a rack of servers and resources that comprises the existing system. (as shown in the figure). Now when the existing system fails to meet the expected needs, and the expected needs can be met by just adding resources, this is considered vertical scaling. Vertical scaling is based on the idea of adding more power(CPU, RAM) to existing systems, basically adding more resources.
 Vertical scaling is not only easy but also cheaper than Horizontal Scaling. It also requires less time to be fixed. 
  
-**Horizontal Scaling** : When new server racks are added to the existing system to meet the higher expectation, it is known as horizontal scaling. 
+- **Horizontal Scaling** : When new server racks are added to the existing system to meet the higher expectation, it is known as horizontal scaling.
+<br>
 Example - Consider a rack of servers and resources that comprises the existing system. (as shown in the figure). Now when the existing system fails to meet the expected needs, and the expected needs cannot be met by just adding resources, we need to add completely new servers. This is considered horizontal scaling. Horizontal scaling is based on the idea of adding more machines to our pool of resources. Horizontal scaling is difficult and also costlier than Vertical Scaling. It also requires more time to be fixed. 
 
 ---
